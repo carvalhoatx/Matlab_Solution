@@ -1,0 +1,10 @@
+ leg=legend('S21-LNAC5','NF-LNAC5','S21-LNAC15','NF-LNAC15');    % Standard Legend creating....
+% set(leg, 'Box', 'off' ) ;  % Turn the Box legend OFF "EdgeColor" 
+set( leg, 'Box', 'on', 'Color', [0.8,0.8,0.8], 'EdgeColor', get( leg, 'Color' )) ;   % change box color opaque 
+
+REF.: https://de.mathworks.com/matlabcentral/answers/233998-set-legend-to-non-transparent
+
+
+Others important commands:  Creating the Legend Manually. 
+ text(10.7, 30.75, 'S21-LNAC5');
+ text(10.1, 30.78, '_____', 'Color', 'red');
