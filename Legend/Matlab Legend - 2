@@ -1,0 +1,8 @@
+% comments: Turn box OFF and change the size font @ Legend
+
+
+
+ leg=legend('-5 dBm', '0 dBm', '+3 dBm');    % Standard Legend creating....
+% set(leg, 'Box', 'off' ) ;  % Turn the Box legend OFF "EdgeColor" 
+set( leg, 'Box', 'off', 'Color', [0.8,0.8,0.8], 'EdgeColor', get( leg, 'Color' ),'FontSize',12) ;   % change box color opaque 
+
