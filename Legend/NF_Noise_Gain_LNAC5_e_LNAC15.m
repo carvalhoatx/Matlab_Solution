@@ -38,7 +38,7 @@ hold off
 
 
 
- leg=legend('S21-LNAC5','NF-LNAC5','S21-LNAC15','NF-LNAC15');
+ leg=legend('S21-LNAC5','NF-LNAC5','S21-LNAC15','NF-LNAC15');    % to position insert the ie.:=> leg=legend('S21-LNAC5','NF-LNAC5','S21-LNAC15','NF-LNAC15','Position',[0.78 0.75 0.1 0.2]);
 % set(leg, 'Box', 'off' ) ;
 set( leg, 'Box', 'on', 'Color', [0.8,0.8,0.8], 'EdgeColor', get( leg, 'Color' )) ;
 
